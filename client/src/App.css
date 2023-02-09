@@ -1,0 +1,170 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.register,
+.login {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  height: auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.register-title,
+.login-title,
+.settings-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.register input,
+.login input {
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  margin-bottom: 1rem;
+}
+
+.register-form-button,
+.login-form-button {
+  width: 65%;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.newGame {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  height: auto;
+  width: 400px;
+}
+
+.settings {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  height: auto;
+  width: 400px;
+}
+
+.settings input {
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.stepsTitlePlusButton,
+.prizesTitlePlusButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.steps,
+.prizes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.steps-title,
+.prizes-title,
+.privateGame-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.settings select {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.stepSelectList,
+.prizesInputList {
+  width: 65%;
+}
+
+.prizesInputList input {
+  width: 93%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.plusButton {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+}
+
+.privateGame {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+}
+
+.privateGame input{
+  width: auto;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  margin-bottom: 1rem;
+}
