@@ -1,0 +1,1 @@
+# loto-quine-2
